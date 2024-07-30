@@ -1,0 +1,775 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: normal;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(11, 10, 10);
+
+    background-size: 100%;
+    box-shadow: 0 2px 4px rgba(189, 186, 155, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    border: 1px solid rgb(46, 41, 41);
+
+}
+
+/* navbar */
+.logo {
+    font-style: italic;
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding-left: 30px;
+
+}
+
+nav {
+
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    background: black;
+    color: white;
+    font-style: Anton;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px grey;
+
+
+}
+
+.list {
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.common-btn {
+    
+    background-color: #ffbb4d;
+    color:black !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+.signup-btn{
+    background-color: #ffbb4d;
+        color: black !important;
+        border-radius: 5px;
+        padding: 10px;
+}
+.list li a:hover{
+    color:#ffbb4d;
+}
+.common-btn,
+.signup-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right:30px;
+    box-shadow: 0 2px 4px white;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+
+}
+
+
+
+/* .menu a:last-child {
+    background-color: #ffbb4d;
+    border-radius: 8px;
+} */
+
+.cracquet {
+    color: aliceblue;
+    font-size: 35px;
+
+}
+
+.menu a {
+
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+
+
+}
+
+
+/* navbar  end*/
+.tap:hover {
+    color: black;
+    background-color: yellow;
+
+}
+
+/* .tap {
+    background-color: #FFBB4C;
+    width: 100px;
+    color: black;
+    border-radius: 8px;
+}
+
+.tapp {
+    background-color: #FFBB4C;
+    width: 100px;
+    color: black;
+    width: 120px;
+    border-radius: 8px;
+} */
+
+.tapp:hover {
+    background-color: yellow;
+}
+
+/* .menu a:last-child {
+    color: black;
+    background-color: #ffbb4d;
+    border-radius: 8px;
+
+} */
+.signup-btn {
+    background-color: #FFBB4C;
+    border-radius: 8px;
+}
+
+/* main */
+
+.Gparent {
+    height: 622px;
+    width: 100%;
+    background-color: black;
+}
+
+.parent {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(/assets/images/backshadow.png);
+
+}
+
+.left,
+.right {
+    flex-basis: 50%;
+    border: 1px solid yello;
+
+
+}
+
+.create-blur {
+    width: 369px;
+    position: absolute;
+    font-size: 138.74px;
+    font-family: Anton;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    opacity: 0.05;
+}
+
+
+
+
+.left {
+    max-width: 600px;
+    padding-left: 20px;
+
+
+}
+
+.bet-win {
+    width: 722px;
+    position: relative;
+    font-size: 70px;
+    font-family: Anton;
+    color: #ffbb4d;
+
+    justify-content: left;
+    display: inline-block;
+}
+
+.with-crac {
+    width: 722px;
+    position: relative;
+    font-size: 70px;
+    font-family: Anton;
+    color: #ffbb4d;
+    color: #fff;
+
+    justify-content: left;
+    display: inline-block
+}
+
+.left p {
+    color: #FFFFFF;
+    position: relative;
+    font-size: 16px;
+    padding-top: 30px;
+    font-family: Poppins;
+    text-align: left;
+    display: inline-block;
+
+}
+
+.but {
+    background-color: #FFBB4C;
+    padding: 8px;
+    color: black;
+    outline: white;
+    border: none;
+    margin-top: 100px;
+    border-radius: 4px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px white;
+
+}
+
+.right img {
+    height: 500px;
+    margin-right: 200px;
+    background-image: url(/assets/images/yellowback\ \(2\).pn);
+
+}
+
+/* second page */
+
+#Gparent2 {
+    background-color: black;
+    width: 100%;
+    height: 694px;
+
+}
+
+.parent2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.left1,
+.right1 {
+    flex-basis: 50%;
+
+
+}
+
+
+.but1 {
+    background-color: #FFBB4C;
+    padding: 15px;
+    color: black;
+    outline: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 60px;
+    box-shadow: 0 2px 4px white;
+}
+
+
+.right img {
+    height: 500px;
+    padding-left: 40%;
+}
+
+.parent right1 {
+    padding-top: 10px;
+    
+}
+
+.right1 {
+    background-image: url(/assets/images/balls.png);
+
+}
+
+.right1 h1 {
+    width: 722px;
+    position: relative;
+    font-size: 45px;
+    font-family: Anton;
+    color: #ffbb4d;
+    justify-content: left;
+    display: inline-block;
+    padding-top: 20%;
+}
+
+.right1 p {
+    padding-top: 5%;
+    color: #FFFFFF;
+}
+
+
+.left1 {
+    width: 100%;
+    height: 100vh;
+
+    position: relative;
+}
+
+.item1 {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-image: url(/assets/images/greenplayer.png);
+    top: 70px;
+    left: 40px;
+}
+
+.item2 {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background-image: url(/assets/images/yellowplayer.png);
+    top: 70px;
+    right: 40px;
+}
+
+.item3 {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-image: url(/assets/images/redplayer.png);
+    bottom: 80px;
+    right: 40px;
+
+}
+
+.item4 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: url(/assets/images/blueplayer.png);
+
+    bottom: 70px;
+    left: 40px;
+
+}
+
+/* third page */
+
+#Gparent3 {
+    height: 622px;
+    width: 100%;
+    background-color: black;
+}
+
+.parent3 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(/assets/images/backsh);
+
+}
+
+.left2,
+.right2 {
+    flex-basis: 50%;
+    border: 1px solid yello;
+
+}
+
+
+
+
+
+.left2 {
+    max-width: 600px;
+    padding-left: 40px;
+
+
+}
+
+.left2 h1 {
+    width: 722px;
+    position: relative;
+    font-size: 40px;
+    font-family: Anton;
+    color: #ffbb4d;
+
+    justify-content: left;
+    display: inline-block;
+}
+
+.left2 p {
+    color: #FFFFFF;
+    position: relative;
+    font-size: 16px;
+    font-family: Poppins;
+    text-align: left;
+    display: inline-block;
+
+}
+
+.but2 {
+    background-color: #FFBB4C;
+    padding: 10px;
+    color: black;
+    outline: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 70px;
+    box-shadow: 0 2px 4px white;
+}
+
+.right2 {
+    height: 600px;
+    width: 500px;
+    position: relative;
+    background-image: url(/assets/images/dhua.png);
+    background-image: url(/assets/images/balls.png);
+}
+
+.player-img {
+    background-image: url(/assets/images/fiveplayers.png);
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    right: 15%;
+
+}
+
+.create-text {
+    width: 369px;
+    position: relative;
+    font-size: 138.74px;
+    font-family: Anton;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    opacity: 0.09;
+}
+
+/* fourth page */
+#Gparent4 {
+    height: 640px;
+    width: 100%;
+    background-color: black;
+}
+
+.parent4 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(/assets/images/background/sevenback.png);
+    background-image: url(/assets/images/dhua.pn);
+}
+
+.top1 {
+    flex-basis: 50%;
+    width: 70%;
+}
+
+.bottom1 {
+    flex-basis: 70%;
+    width: 100%;
+
+}
+
+.top1 h1 {
+    position: relative;
+    font-size: 50px;
+    line-height: 85.5px;
+    font-family: Anton;
+    color: #f8bf63;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20%;
+}
+
+.top1 p {
+    color: #FFFFFF;
+    position: relative;
+    font-size: 16px;
+    font-family: Poppins;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.bottom1 {
+    width: 48%;
+    height: 70%;
+    background-image: url(/assets/images/sevenplayers.png);
+    padding-bottom: 30%;
+
+}
+
+#Gparent5 {
+    width: 100%;
+    height: 690px;
+    background-color: black;
+}
+
+.parent5 {
+    width: 100%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.left3,
+.right3 {
+    flex-basis: 50%;
+
+
+}
+
+.left3 {
+    width: 722px;
+    position: relative;
+    font-size: 40px;
+    font-family: Anton;
+    color: #ffbb4d;
+
+    justify-content: left;
+    display: inline-block;
+}
+
+.left3 {
+    max-width: 600px;
+    padding-left: 40px;
+
+
+}
+
+.left3 h1 {
+    position: relative;
+    font-size: 40px;
+    line-height: 85.5px;
+    font-family: Anton;
+    color: #f8bf63;
+    text-align: left;
+    justify-content: center;
+    display: inline-block;
+}
+
+.left3 p {
+    color: #FFFFFF;
+    position: relative;
+    font-size: 16px;
+    font-family: Poppins;
+    text-align: left;
+    display: inline-block;
+}
+
+.left3 h2 {
+    width: 400px;
+    position: relative;
+    font-size: 80px;
+    font-family: Anton;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    opacity: 0.05;
+}
+
+.right3 {
+    position: relative;
+    width: 100%;
+
+}
+
+.ea-seven {
+    height: 600px;
+    background-image: url(/assets/images/AEback.png);
+    background-size: cover;
+    opacity: 0.2;
+
+}
+
+.Aus-flag {
+    width: 200px;
+    height: 150px;
+    background-image: url(/assets/images/aus.png);
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.Eng-flag {
+    width: 200px;
+    height: 150px;
+    background-image: url(/assets/images/Eng.png);
+    position: absolute;
+    top: 200px;
+    right: 60px;
+
+}
+
+.live-score {
+    position: absolute;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    right: 300px;
+
+}
+
+#Gparent6 {
+    height: 580px;
+    width: 100%;
+    background-color: black;
+    background-image: url(/assets/images/dhua.png);
+    background-repeat: no-repeat;
+
+}
+
+.parent6 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.top2 {
+    flex-basis: 50%;
+    width: 70%;
+    height: 40%;
+
+}
+
+.bottom2 {
+    flex-basis: 70%;
+    width: 100%;
+}
+
+.top2 h1 {
+    position: relative;
+    font-size: 45px;
+    line-height: 85.5px;
+    font-family: Anton;
+    color: #f8bf63;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+.bottom2 {
+    width: 48%;
+    height: 40%;
+    padding-bottom: 33%;
+    font-family: Arial, sans-serif;
+    position: relative;
+    margin-left:6%;
+}
+
+.form {
+    max-width: 400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name-email {
+    width: 50%;
+    display: inline;
+    color: #fff;
+
+
+}
+
+.name-email input {
+    width: 40%;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #FFFFFF;
+
+
+}
+
+.mobile-subject input {
+    width: 40%;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #FFFFFF;
+
+
+}
+
+.message textarea {
+    width: 84%;
+    padding: 7%;
+    margin: 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: #282828;
+
+}
+
+.but3 {
+    width: 40%;
+    padding: 13px;
+    background-color: #FFBB4C;
+    border-radius: 4px;
+    position: absolute;
+box-shadow: 0 2px 4px white;
+    left: 26%;
+
+}
+
+.foot {
+    background-color: #e6ae53;
+    height: 70px;
+    color: black;
+    padding-top: 25px;
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LEVEL_3</title>
+</head>
+
+<body>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="search in google">
+        <button>search</button>
+    </form>
+    <hr>
+    <form action="/server">
+
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <form action="/server">
+        <div>
+            <h2>Choose a fruit</h2>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">banana</label>
+            <br>
+            <button>Submit</button>
+            <hr>
+            <h2>Choose your subjects</h2>
+            <input type="checkbox" name="subjects" id="english" value="eng">
+            <label for="english">english</label>
+            <input type="checkbox" name="subjects" id="hindi" value="hindi">
+            <label for="hindi">hindi</label>
+            <input type="checkbox" name="subjects" id="maths" value="maths">
+            <label for="maths">maths</label>
+            <br>
+            <button>Submit</button>
+        </div>
+        <hr>
+        <div>
+            <h2>select your profession</h2>choose your profession
+            <select name="profession" id="profession">
+                <option>select your option</option>
+                <option value="stu">Student</option>
+                <option value="dev">developer</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <label for="feed">please give your valuable feedbck</label>
+            <textarea name="feedback" placeholder="write your valuable feedback" id="feed"></textarea>
+            <button>Submit</button>
+
+        </div>
+    </form>
+    <hr>
+    <h3>Registration form</h3>
+
+    <form action="/server">
+        <DIV>
+            <input type="text" placeholder="First Name" name="fname">
+            <input type="text" placeholder="Last Name" name="lname">
+        </DIV>
+        <div>
+
+            <label for="gender">Please select your gender</label>
+            <select name="gender" id="gender">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">others</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all terms of services?
+            <input type="checkbox" id="tos_agree" name="tos_agree">
+            <label for="tos_agree">Yes i agree</label>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
+
+<picture>
+    <source media="(min-width:750px)" srcset="./assets/images/Car1.png">
+    <source media="(min-width:550px)" srcset="./assets/images/car2.png">
+    <img src="./assets/images/bmw.png">
+</picture>
